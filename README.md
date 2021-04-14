@@ -30,15 +30,15 @@ To run this project, all you need is a browser, such as Google Chrome, Mozilla F
 ```
 https://github.com/VanessaAoki/YouTubeClone.git
 ```
-2. Double click the `inder.html` file - your default browser should open;
+2. Double click the `index.html` file - your default browser should open;
 
 3. Browse through the website!
 
 
 ## Built With
 
-- HTML 5;
-- CSS 3.
+- HTML5;
+- CSS3;
 
 ## Author
 
