@@ -17,7 +17,9 @@
 </p>
 
 # YouTube Clone
-This project aims to clone the style from a [YouTube](https://www.youtube.com) video page, including header, video player, recommended videos, author and video information, comments section, and footer.
+This project aims to clone the style from a [YouTube](https://www.youtube.com) video page, including header, video player, recommended videos, author and video informations, comments section, and footer. This is a one page only project.
+
+> This project is a re-do of the first project from the HTML & CSS module from Microverse, and I'm using only Vanilla, which menas no frameworks nor preprocessors;
 
 ## Getting Started
 
