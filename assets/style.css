@@ -15,14 +15,18 @@ a {
 
 input:focus {outline: none;}
 
+/* HEADER */
+
 header {
   height: 56px;
   width: 100%;
+  position: fixed;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
   color: #666;
+  background-color: white;
 }
 
 .left-header {
@@ -101,9 +105,36 @@ header {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: #107516;
+  background-color: #45ad4c;
   color: white;
   font-weight: 400;
   border-radius: 50%;
-  border-color: #107516;
+}
+
+/* MAIN */
+
+
+/* VIDEO TITLE + INFOS */
+.video-more {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.author {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.author-left {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.subscribe {
+  background-color: red;
+  border: none;
+  color: white;
 }
