@@ -53,28 +53,39 @@ header {
   height: 32px;
   width: 426px;
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 
 .search-container {
-  height: 32px;
+  height: 30px;
   width: 418px;
   display: flex;
   align-items: center;
   border: 1px solid #ccc;
+  border-right: none;
 }
 
 .search-bar {
   height: 24px;
   width: 340px;
-  padding: 1px;
-  margin-left: 4px;
+  padding: 0;
+  margin-left: 10px;
   font-size: 16px;
   font-weight: 400;
   color: #666;
   border: none;
 }
+
+.search-button {
+  background-color: #f9f9f9;
+  height: 32px;
+  width: 65px;
+  padding: 0 20px;
+  border: 1px solid #ccc;
+  color: #666;
+}
+
+.fa-microphone {margin: 0 20px;}
 
 .right-header {
   padding: 5px;
