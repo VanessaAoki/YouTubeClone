@@ -1,4 +1,13 @@
 html,
 body {
-  background-color: #999999;
+  background-color: rbg(255, 255, 255);
+}
+
+header {
+  background-color: blue;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
 }
