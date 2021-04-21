@@ -35,7 +35,7 @@ hr {
 
 ul {list-style: none;}
 
-.loading {height: 100px;}
+.loading {height: 25px;}
 
 #wrapper {width: 100%;}
 
@@ -283,6 +283,7 @@ main {
 .recommended-info {
   width: 226px;
   height: 94px;
+  margin-left: 10px;
 }
 
 .recommended-title {
