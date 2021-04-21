@@ -9,6 +9,7 @@ body {
 
 a {
   text-decoration: none;
+  color: inherit;
   margin: 0;
   border: 0;
   padding: 0;
@@ -264,6 +265,7 @@ main {
   height: 94px;
   display: flex;
   align-items: flex-start;
+  margin-bottom: 10px;
 }
 
 .recommended-vid-container {
@@ -272,12 +274,15 @@ main {
   margin: 0;
 }
 
+.recommended-vid-container > img {
+  width: 158px;
+  height: 94px;
+}
 /* RECOMMENDED VIDEO INFORMATION */
 
 .recommended-info {
   width: 226px;
   height: 94px;
-  margin-left: 10px;
 }
 
 .recommended-title {
