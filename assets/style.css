@@ -23,12 +23,15 @@ button {
 hr {
   border: 0;
   border-top: 1px solid rgb(195, 195, 195);
+  margin: 0;
 }
 
 .fas {
   padding: 0 5px;
   font-size: 18px;
 }
+
+.loading {height: 100px;}
 
 #wrapper {width: 100%;}
 
@@ -133,7 +136,7 @@ header {
 main {
   padding-top: 80px;
   display: grid;
-  grid-template-columns: auto 600px 400px auto;
+  grid-template-columns: auto 600px 420px auto;
   grid-template-rows: auto;
   grid-template-areas: 
   ". video-container recommended-container .";
@@ -144,7 +147,8 @@ main {
 
 .recommended-container {grid-area: recommended-container;}
 
-/* VIDEO TITLE + INFOS */
+/* VIDEO TITLE */
+
 .video-info > h3 {
   font-size: 18px;
   line-height: 24px;
@@ -174,6 +178,13 @@ main {
   align-items: center;
 }
 
+/* VIDEO DESCRIPTION */
+
+.video-description {
+  display: block;
+  margin-top: 15px;
+}
+
 .author {
   display: flex;
   justify-content: space-between;
@@ -197,6 +208,7 @@ main {
   font-size: 24px;
   font-weight: 500;
   border-radius: 50%;
+  grid-area: profile;
 }
 
 .author-center {margin-left: 10px;}
@@ -214,6 +226,68 @@ main {
 }
 
 .subscribe {
-  background-color: red;
+  padding: 10px 16px;
+  background-color: #c00;
   color: white;
+  font-size: 14px;
+  font-weight: 800;
+  border-radius: 3px;
+}
+
+.description-p {
+  margin-left: 58px;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+}
+
+/* COMMENTARIES */
+
+.commentaries {
+  display: flex;
+  justify-content: center;
+}
+
+/* RECOMMENDED VIDEO */
+
+.recommended {
+  height: 94px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.recommended-vid-container {
+  width: 168px;
+  height: 94px;
+  margin: 0;
+}
+
+/* RECOMMENDED VIDEO INFORMATION */
+
+.recommended-info {
+  width: 226px;
+  height: 94px;
+  margin-left: 10px;
+}
+
+.recommended-title {
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 500;
+  margin: 0 0 4px 0;
+}
+
+.info {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 400;
+  color: #999;
+  margin: 0;
+}
+
+/* RECOMMENDED FOOTER */
+
+.recommended-footer {
+  display: flex;
+  justify-content: center;
 }
