@@ -254,12 +254,84 @@ main {
 
 /* COMMENTARIES */
 
-.commentaries {
+.commentaries-sort-by {
   display: flex;
-  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  margin: 15px 0;
 }
 
-/* RECOMMENDED VIDEO */
+.commentaries-sort-by > p {margin-right: 40px;}
+
+.commentaries-sort-by > span {
+  font-weight: 500;
+  color: #666;
+}
+
+.commentaries-author {
+  display: grid;
+  grid-template-columns: 60px auto;
+}
+
+.commentaries-user-logo {
+  height: 45px;
+  width: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #37a13e;
+  color: white;
+  font-weight: 500;
+  border-radius: 50%;
+}
+
+.commentaries-write {color: #666;}
+
+.commentaries-write > hr {margin-top: 8px;}
+
+.commentaries-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+/* RECOMMENDED HEADER */
+
+.recommended-header {
+  height: 50px;
+  display: flex;
+}
+
+.recommended-header > .recommended-button {
+  height: 36px;
+  margin: 0 8px 8px 0;
+  border: 1px solid rgba(195, 195, 195, .5);
+  border-radius: 50px;
+  background-color: rgba(235, 235, 235, 0.918);
+}
+
+.recommended-header > .recommended-button:hover {background-color: rgb(199, 199, 199);}
+
+.recommended-header > button > a {
+  font-size: 15px;
+  font-family: 'Roboto', sans-serif;
+  line-height: 21px;
+  padding: 0 12px;
+  font-weight: 400;
+}
+
+.recommended-header > .button-active {
+  height: 36px;
+  margin: 0 8px 8px 0;
+  color: #f9f9f9;
+  border: 1px solid #666;
+  border-radius: 50px;
+  background-color: #666;
+}
+
+.recommended-header > .button-active:hover {background-color: rgb(134, 134, 134);}
+
+/* RECOMMENDED VIDEOS */
 
 .recommended {
   height: 94px;
@@ -306,6 +378,7 @@ main {
 .recommended-footer {
   display: flex;
   justify-content: center;
+  margin: 15px 0;
 }
 
 /* FOOTER */
