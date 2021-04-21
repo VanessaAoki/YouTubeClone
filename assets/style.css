@@ -1,6 +1,6 @@
 html,
 body {
-  background-color: rbg(255, 255, 255);
+  background-color:rgb(230, 230, 230);
   margin: 0;
   border: 0;
   padding: 0;
@@ -8,6 +8,7 @@ body {
 }
 
 a {
+  text-decoration: none;
   margin: 0;
   border: 0;
   padding: 0;
@@ -30,6 +31,8 @@ hr {
   padding: 0 5px;
   font-size: 18px;
 }
+
+ul {list-style: none;}
 
 .loading {height: 100px;}
 
@@ -136,7 +139,7 @@ header {
 main {
   padding-top: 80px;
   display: grid;
-  grid-template-columns: auto 600px 420px auto;
+  grid-template-columns: auto 1200px 420px auto;
   grid-template-rows: auto;
   grid-template-areas: 
   ". video-container recommended-container .";
@@ -146,6 +149,13 @@ main {
 .video-container {grid-area: video-container;}
 
 .recommended-container {grid-area: recommended-container;}
+
+/* VIDEO */
+
+.embeded {
+  width: 100%;
+  height: 700px;
+}
 
 /* VIDEO TITLE */
 
@@ -297,13 +307,16 @@ main {
 footer {
   width: 100%;
   display: grid;
-  grid-template-columns: auto 1020px auto;
-  grid-template-rows: auto;
+  grid-template-columns: auto 1820px auto;
+  grid-template-rows: 50px 3px 26px 26px;
   grid-template-areas: 
   ". preferences ."
+  ". hr ."
   ". about ."
   ". terms .";
   column-gap: 20px;
+  padding: 20px 0 40px 0;
+  border-top: 1px solid rgba(195, 195, 195, .5);
   background-color: white;
 }
 
@@ -314,7 +327,7 @@ footer {
   width: 100%;
   display: flex;
   align-items: center;
-  margin-bottom: 50px;
+  padding: 0 0 0 5px;
 }
 
 .bottom-logo {
@@ -339,4 +352,37 @@ footer {
 .preferences > button > .fas {
   font-size: 14px;
   color: #999;
+}
+
+.footer-hr {grid-area: hr;}
+/* ABOUT */
+
+.about {grid-area: about;}
+
+.about-list {
+  display: inline-flex;
+  padding: 0 0 0 5px;
+}
+
+.about-list > li > a {
+  font-size: 13px;
+  font-weight: 500;
+  color: #333;
+  margin-right: 15px;
+}
+
+/* TERMS */
+
+.terms {grid-area: terms;}
+
+.terms-list {
+  display: inline-flex;
+  padding: 0 0 0 5px;
+}
+
+.terms-list > li > a {
+  font-size: 12px;
+  font-weight: 400;
+  color: #333;
+  margin-right: 15px;
 }
