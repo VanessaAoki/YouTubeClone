@@ -21,10 +21,16 @@ This project aims to clone the style from a [YouTube](https://www.youtube.com) v
 
 > This project is a re-do of the first project from the HTML & CSS module from Microverse, and I'm using only Vanilla, which means no frameworks nor preprocessors;
 
+![screenshot](./assets/images/screenshot.png)
+
 ## Getting Started
 
 ### Prerequisites
 To run this project, all you need is a browser, such as Google Chrome, Mozilla Firefox, Widows Explorer etc.
+
+## Live Demo
+
+Click this [link](https://rawcdn.githack.com/VanessaAoki/YouTubeClone/886d46f81ac5f0ccb4e3fe89cb9b4341a7443393/index.html) to go to the live demo of this project.
 
 ### Setup
 
