@@ -28,7 +28,7 @@ This project aims to clone the style from a [YouTube](https://www.youtube.com) v
 ### Prerequisites
 To run this project, all you need is a browser, such as Google Chrome, Mozilla Firefox, Widows Explorer etc.
 
-## Live Demo
+### Live Demo
 
 Click this [link](https://rawcdn.githack.com/VanessaAoki/YouTubeClone/886d46f81ac5f0ccb4e3fe89cb9b4341a7443393/index.html) to go to the live demo of this project.
 
